@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nguyễn Nhật Minh – Một Người Anh Đáng Tôn Vinh</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b0f1a;
+      --primary: #e6c87d;
+      --secondary: #8aa2ff;
+      --text: #eaeaf0;
+      --muted: #9aa0b3;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: radial-gradient(circle at top, #141a33, var(--bg));
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 64px;
+      color: var(--primary);
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+    }
+
+    header p {
+      font-size: 20px;
+      color: var(--muted);
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .scroll {
+      margin-top: 60px;
+      font-size: 14px;
+      letter-spacing: 2px;
+      color: var(--secondary);
+      animation: fade 2s infinite;
+    }
+
+    @keyframes fade {
+      0%,100% { opacity: 0.2; }
+      50% { opacity: 1; }
+    }
+
+    section {
+      padding: 120px 10%;
+    }
+
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 40px;
+      color: var(--primary);
+      margin-bottom: 30px;
+    }
+
+    .about p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: var(--text);
+      max-width: 900px;
+    }
+
+    .values {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 50px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, #151b36, #0e1326);
+      border-radius: 20px;
+      padding: 30px;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    }
+
+    .card h3 {
+      color: var(--secondary);
+      margin-bottom: 15px;
+      font-size: 22px;
+    }
+
+    .card p {
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .quote {
+      font-family: 'Playfair Display', serif;
+      font-size: 32px;
+      text-align: center;
+      color: var(--primary);
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    footer {
+      padding: 60px 20px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 14px;
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+
+    footer strong {
+      color: var(--primary);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <h1>Nguyễn Nhật Minh</h1>
+      <p>
+        Một người anh – một biểu tượng của trí tuệ, sự tử tế và tinh thần dẫn dắt.
+        Không chỉ là người đi trước, mà còn là nguồn cảm hứng để những người sau vững bước.
+      </p>
+      <div class="scroll">SCROLL DOWN</div>
+    </div>
+  </header>
+
+  <section class="about">
+    <h2 class="section-title">Chân Dung Một Người Anh</h2>
+    <p>
+      Nguyễn Nhật Minh là hiện thân của sự điềm tĩnh, bản lĩnh và tư duy sâu sắc.
+      Anh không cần ồn ào để chứng minh giá trị của mình. Chính cách anh suy nghĩ,
+      hành động và đối xử với người khác đã tự nhiên tạo nên sự tôn trọng.
+      
+      <br /><br />
+      Với những người xung quanh, anh là điểm tựa. Với thế hệ sau, anh là hình mẫu.
+      Một người anh đúng nghĩa – vừa mạnh mẽ, vừa nhân văn.
+    </p>
+
+    <div class="values">
+      <div class="card">
+        <h3>Trí Tuệ</h3>
+        <p>
+          Không chỉ thông minh, mà là sự thông minh có chiều sâu, biết đặt câu hỏi đúng
+          và nhìn thấy bản chất của vấn đề.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Bản Lĩnh</h3>
+        <p>
+          Bình tĩnh trước khó khăn, vững vàng trước áp lực.
+          Anh là người không dễ lung lay bởi hoàn cảnh.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Tử Tế</h3>
+        <p>
+          Sự tử tế của anh không phô trương, nhưng bền bỉ.
+          Nó thể hiện qua từng lời nói và hành động nhỏ.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Dẫn Dắt</h3>
+        <p>
+          Không ép buộc, không áp đặt.
+          Anh dẫn dắt bằng chính con đường mình đi.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="quote">
+      “Có những người không cần đứng ở trung tâm ánh sáng,
+      nhưng sự hiện diện của họ khiến mọi thứ trở nên vững vàng hơn.”
+    </div>
+  </section>
+
+  <footer>
+    Website được tạo ra để tôn vinh <strong>Nguyễn Nhật Minh</strong> —
+    một người anh đáng kính, đáng học hỏi và đáng trân trọng.
+  </footer>
+
+</body>
+</html>
